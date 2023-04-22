@@ -1,0 +1,51 @@
+.about-cards-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+.about-card{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+
+}
+.about-foto{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about-description{
+    padding: 20px;
+
+}
+.position{
+    color:blueviolet;
+    padding-bottom: 30px;
+  
+}
+.title{
+    color: blue;
+    padding: 10px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.fcb ,.in ,.insta ,.linkedin,.tik, .twitter{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
